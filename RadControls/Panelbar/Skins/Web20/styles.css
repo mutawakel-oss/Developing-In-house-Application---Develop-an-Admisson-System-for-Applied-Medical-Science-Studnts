@@ -1,0 +1,124 @@
+/* RadPanelBar Web 2.0 skin */
+
+.RadPanelbar_Web20
+{
+	background: white;
+	white-space: nowrap;
+}
+
+.RadPanelbar_Web20 .rootGroup
+{
+	border: solid 1px #6788be;
+	border-bottom: 0px;
+}
+
+.RadPanelbar_Web20 .text
+{
+	color: white;
+	padding-left: 14px;
+	font: bold 14px Arial, Verdana, Sans-serif;
+}
+
+.RadPanelbar_Web20 .image
+{
+	margin: 4px 0px;
+}
+
+.RadPanelbar_Web20 .rootGroup .text
+{
+	background: url('Img/HeaderArrowCollapsed.gif') no-repeat 98% center;
+	line-height: 28px;
+	border-bottom: solid 1px #6788be;
+	border-top: solid 1px #cfd8e4;
+}
+
+.RadPanelbar_Web20 .rootGroup .link
+{
+	background: #95b6e0 url('Img/HeaderBg.gif') repeat-x;
+}
+
+.RadPanelbar_Web20 .group .text
+{
+	border: 0px;
+	background: none;
+	color: #333;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.RadPanelbar_Web20 .group .link
+{
+	background: none;
+	border-bottom: solid 1px #f0f2f3;
+}
+
+.RadPanelbar_Web20 .group .link:hover
+{
+	background: #e7f1ff;
+	border-bottom: solid 1px #d8dde0;
+}
+
+.RadPanelbar_Web20 .group .link .selected
+{
+	/**/
+}
+
+.RadPanelbar_Web20 .rootGroup .selected
+{
+	background: #95b6e0 url('Img/HeaderBg.gif') repeat-x;
+}
+
+.RadPanelbar_Web20 .group .selected, 
+.RadPanelbar_Web20 .group .selected:hover
+{
+	background: none;
+	border-bottom: 0px;
+}
+
+.RadPanelbar_Web20 .rootGroup .expanded .text
+{
+	background: url('Img/ExpandedBg.gif') no-repeat 98% center;
+	font-weight: bold;
+}
+
+.RadPanelbar_Web20 .group .selected .text
+{
+	font-weight: normal !important;
+	border: 0px;
+	border-bottom: solid 1px #accb2d;
+	background: #dcfc5c;
+	color: #333;
+}
+
+.RadPanelbar_Web20 .group .expanded .text
+{
+	color: #000;
+	background: #dcfc5c;
+	font-weight: normal !important;
+	text-decoration: underline !important
+}
+
+.RadPanelbar_Web20 .level2 .text
+{
+	padding-left: 36px;
+	line-height: 28px;
+}
+
+
+.RadPanelbar_Web20 .rootGroup .disabled:hover,
+.RadPanelbar_Web20 .rootGroup .disabled .text
+{
+	background: #95b6e0 url('Img/HeaderBg.gif') repeat-x;
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_Web20 .rootGroup .group .disabled:hover,
+.RadPanelbar_Web20 .rootGroup .group .disabled .text
+{
+	text-decoration: none;
+	border-bottom: solid 1px #f0f2f3;
+	background: none;
+	color: #ccc;
+	cursor: default;
+}

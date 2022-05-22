@@ -1,0 +1,109 @@
+/* RadPanelBar WindowsXP skin */
+
+.RadPanelbar_WindowsXP
+{
+	background: #6487dc;
+	white-space:nowrap;
+	padding: 20px;
+	padding-bottom: 0px;
+	border: solid 1px #2151b2;
+}
+
+.RadPanelbar_WindowsXP .text
+{
+	padding: 0px 20px;
+	font: bold 11px Arial, Verdana, Sans-serif;
+	line-height: 25px;
+}
+
+.RadPanelbar_WindowsXP .image
+{
+	margin: 4px 0px;
+}
+
+.RadPanelbar_WindowsXP .rootGroup .item
+{
+	margin-bottom: 20px;
+}
+
+.RadPanelbar_WindowsXP .rootGroup .text
+{
+	background: transparent url('img/Left_Item.gif') no-repeat;
+	font-weight: bold;
+	color: #215dc6;
+}
+
+.RadPanelbar_WindowsXP .rootGroup .link
+{
+	color: #215dc6;
+	background: #ffffff url('img/Right_Item.gif') no-repeat right;
+}
+
+.RadPanelbar_WindowsXP .rootGroup .link:hover
+{
+	color: #373737;
+}
+
+.RadPanelbar_WindowsXP .group .text
+{
+	border:0;
+	background: transparent;
+	font-weight: normal;
+	padding: 4px 20px;
+	line-height: 16px;
+}
+
+.RadPanelbar_WindowsXP .level2 .text
+{
+	padding-left: 37px;
+	line-height: 14px;
+}
+
+.RadPanelbar_WindowsXP .group
+{
+	background: #d7def8;
+}
+
+.RadPanelbar_WindowsXP .group .item
+{
+	margin-bottom: 0px; /* compensate the root group <li> margin */
+	background: none;
+}
+
+.RadPanelbar_WindowsXP .group .link
+{
+	background: none !important;
+}
+
+.RadPanelbar_WindowsXP .group .text
+{
+	background: none !important;
+	color: #215dc6; 
+}
+
+.RadPanelbar_WindowsXP .rootGroup .selected .text
+{
+	color: #215dc6;
+	text-decoration: none;
+}
+
+.RadPanelbar_WindowsXP .group .expanded .text
+{
+	color: #373737 !important; 
+}
+
+.RadPanelbar_WindowsXP .group .selected .text
+{
+	color: #373737;
+}
+
+.RadPanelbar_WindowsXP .rootGroup .expanded .text
+{
+	color: white;
+	background: transparent url('img/Left_Item_Selected.gif') no-repeat;
+}
+
+.RadPanelbar_WindowsXP .rootGroup .expanded
+{
+	background: #1d57c7 url('img/Root_Item_Right_Selected.gif') no-repeat right;
+}

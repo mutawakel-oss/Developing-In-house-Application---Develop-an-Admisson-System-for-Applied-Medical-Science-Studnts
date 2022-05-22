@@ -1,0 +1,491 @@
+/* telerik homepage stylesheet (Nov, 17 2005) */
+
+body 
+{
+	color: #333;  /* w3c css validator required */
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+	font-family: Verdana, Arial;
+	line-height: 18px;
+}
+
+A
+{
+	color: #5da015;
+}
+p, li, table
+{
+	font-size: 11px;
+	font-family: Verdana, Arial;
+	line-height: 18px;
+}
+img
+{
+	border: 0px;
+	font-family: Verdana, Arial;
+}
+a.quickLinks, a.quickLinks:link, a.quickLinks:visited, a.quickLinks:active, a.quickLinks:focus
+{
+	display: block;
+	color: #666666;
+	background-color: #fff;  /* w3c css validator required */
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	border-bottom: solid 1px #eeeeee;
+	margin-left: 10px;
+	margin-right: 31px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+
+a.quickLinks:hover
+{
+	color: #333;
+	background-color: #fff;  /* w3c css validator required */
+}
+
+.login_KBSearch {
+	background-image:url(../images/LoginFormSmall/loginTextfields.gif);
+	background-repeat:no-repeat;
+	color: #999999;
+	font-family:Verdana, Arial, Helvetica;
+	font-size:11px;
+	padding-left:6px;
+	padding-top:5px;
+	border:0px;
+	width:128px;
+	height:24px;
+	background-attachment : fixed;
+	background-color:#E9E9E9;
+	vertical-align:middle;
+}
+
+.login_TextField {
+	background-image:url(../images/LoginFormSmall/loginTextfields.gif);
+	background-repeat:no-repeat;
+	color: #999999;
+	font-family:Verdana, Arial, Helvetica;
+	font-size:11px;
+	border:0px;
+	width:121px;
+	height:19px;
+	padding-top:4px;
+	padding-left:6px;
+	background-attachment : fixed;
+	background-color:#E9E9E9;
+	margin-top: 4px;
+	vertical-align: middle;
+}
+
+.searchTextfield
+{
+	border: 0px;
+	background: #f0f0f0 url(../images/Homepage/searchTextBox.gif) no-repeat;
+	background-attachment: fixed;
+	width: 114px;
+	height: 17px;
+	color: #666666;
+	font-size: 11px;
+	padding-left: 7px;
+	display: block;
+	float: left;
+}
+
+.search_Button {
+	border: 0px;
+	background-color: transparent;
+	background-image:url(../images/kb/simpleSearch.gif);
+	background-repeat:no-repeat;
+	width:39px;
+	height:23px;
+	vertical-align:middle;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.topsearch_Button {
+	border: 0px;
+	background-color: transparent;
+	background-image:url(../images/Homepage/searchButton.gif);
+	background-repeat:no-repeat;
+	width:21px;
+	height:17px;
+	cursor: hand;
+	cursor: pointer;
+	display: block;
+	float: left;
+}
+
+.logOffButton
+{
+	background-image:url(../images/Homepage/logOffButton.gif);
+	background-repeat:no-repeat;
+	width:70px;
+	line-height:17px;
+	cursor: hand;
+	display: block;
+	float: right;
+	margin: 6px 10px 11px 30px;
+	color: #666666;
+	text-decoration: none;
+	text-align: center;
+	font-size: 11px
+}
+
+.login_Button {
+	background-image:url(../images/LoginFormSmall/loginButton.gif);
+	background-repeat:no-repeat;
+	border:0px;
+	width:26px;
+	height:23px;
+	vertical-align:middle;
+	margin-top:3px;
+}
+.plus
+{
+	vertical-align: middle;
+	margin-right: 13px;
+	margin-left: 8px;
+}
+.homepageHolder
+{
+	width: 779px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.topNav Img
+{
+	float: right;
+	border: 0px;
+}
+
+.topNavImg
+{
+	margin-right: 19px;
+	margin-top:10px;
+}
+
+.productsBar Img, .greenBarImg
+{
+	float:left;
+	border: 0px;
+}
+
+.topNav
+{
+	width: 756px;
+	background-image: url(../Images/homepage/topNavBg.gif);
+	background-repeat: repeat-x;
+	height:27px;
+	text-align: right;
+	padding-top: 12px;
+	margin-left:18px;
+}
+
+.topNavSeclevel
+{
+	width:774px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+	clear:both;
+}
+
+.topNavBgSeclevel
+{
+	width: 549px;
+	float:left;
+	height: 74px;
+	text-align: right;
+}
+
+.leftPane
+{
+	color: #333; /* w3c css validator required */
+	background-color: #fff;
+	width: 230px;
+	float: left;
+}
+.rightPane
+{
+	width: 549px;
+	float: left;
+}
+.productsBar
+{
+	width: 549px;
+	height: 43px;
+	color: #333;  /* w3c css validator required */
+	background-color: #fff;
+	background-image: url(../Images/homepage/productsBarBg.gif);
+	background-repeat: repeat-x;
+}
+.bigPane
+{
+	width: 549px;
+	height: 209px;
+	display: block;
+	background-image: url(../Images/homepage/bigPaneBg.jpg);
+	background-repeat: no-repeat;
+	background-color: #fff;  /* w3c css validator required */
+	color: #333333;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	cursor: hand;
+}
+A.bigPane 
+{
+	text-decoration: none;
+}
+.greenBar
+{
+	width: 549px;
+	height: 42px;
+}
+.events
+{
+	width: 547px;
+	height: 155px;
+	background-image: url(../Images/homepage/topGrad.gif);
+	background-repeat: repeat-x;
+	background-color: #fbfbfb;
+	color: #333333;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #e9e9e9;
+	border-right: solid 1px #f7f7f7;
+	border-left: solid 1px #f7f7f7;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	cursor: default;
+	clear:both;
+}
+.awards
+{
+	width: 547px;
+	height: 229px;
+	clear:both;
+	background-image: url(../Images/homepage/bottomGrad.gif);
+	background-repeat: repeat-x;
+	background-color: #fbfbfb;
+	color: #333333;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #e9e9e9;
+	border-right: solid 1px #f7f7f7;
+	border-left: solid 1px #f7f7f7;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	cursor: default;
+}
+.eventsCell
+{
+	float: left;
+	padding-top: 16px;
+}
+.eventsCell a
+{
+	color: #333;
+	text-decoration: none;
+}
+.eventsCell a:hover
+{
+	color: #000;
+	text-decoration: underline;
+}
+.siteFooter
+{
+	clear:both;
+	padding-top:0.5em;
+	background: url(../images/productHomePage/footerBg.gif) 0 0 repeat-x #fefefe;
+	color: #666;
+	font: 10px verdana,arial,sans-serif;
+	text-align:center;
+}
+.homepageHolder .siteFooter{background:none}
+.siteFooter a
+{
+	color: #666;
+}
+.siteFooter a:hover
+{
+	color: #333;
+}
+
+.siteFooter p
+{
+    margin:0.5em 0 0;
+}
+
+.siteFooter .ftrcopy
+{
+	color: #999;
+}
+
+.infoPane
+{
+	padding-left: 10px;
+	padding-right: 27px;
+	background-color: #fff;  /* w3c css validator required */
+	color: #666666;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	line-height: 16px;
+	cursor: default;
+}
+
+.infoPane A
+{
+	color: #666666;
+	text-decoration: none;
+}
+
+.infoPane A:hover
+{
+	color: #333;
+	text-decoration: underline;
+}
+
+.eventsCellSeparator
+{
+	float: left;
+	margin-top: 15px;
+}
+.navigation {
+	background-image:url(../images/productHomePage/navigationBg.gif);
+	background-repeat:repeat-x;
+}
+
+.normalText {
+	font-family:Verdana, Arial, Helvetica;
+	color:#333333;
+	font-size:13px;
+	line-height:24px;
+}
+.frontend_normalText {
+	font-family:Verdana, Arial, Helvetica;
+	color:#333333;
+	font-size:11px;
+	line-height:18px;
+}
+.frontend_NormalText A {
+	color:#333333;
+	text-decoration:none;
+}
+.frontend_NormalText A {
+	color:#333333;
+	text-decoration:underline;
+}
+.frontend_superNormalText {
+	font-family:Verdana, Arial, Helvetica;
+	color:#333333;
+	font-size:11px;
+	line-height:18px;
+}
+.frontend_superNormalText A {
+	color:#333333;
+	text-decoration:none;
+}
+.frontend_superNormalText A:hover {
+	color:#333333;
+	text-decoration:underline;
+}
+.superNormalText {
+	font-family:Verdana, Arial, Helvetica;
+	color:#333333;
+	font-size:13px;
+}
+.frontend_Heading {
+	color:#666666;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica;
+	background-image: url(../images/Upgrades/typeUnderline.jpg);
+	background-repeat: no-repeat;
+	background-position:bottom left;
+	padding-left:16px;
+	padding-top:16px;
+	padding-bottom:4px;
+	margin-bottom:7px;
+}
+.frontend_CodeInsert {
+	font-family: Courier New, Verdana;
+	color:#000066;
+	font-size:11px;
+}
+.frontend_CodeComment
+{
+	font-family: Courier New, Verdana;
+	color:#008000;
+	font-size:11px;
+}
+
+.frontend_emphasis
+{
+	background-color:#eef2ee;
+	font-weight: bold;
+}
+
+.frontend_InternalNote
+{
+	background-color:#ffff00;
+}
+
+.frontend_Heading2 {
+	background-image:url(../images/Features/featuresSeparator.jpg);
+	background-repeat:no-repeat;
+	background-position:left 20px;
+}
+.testimonialLeft {
+	float:left;
+	font-family:Verdana, Arial, Helvetica;
+	font-size:10px;
+	color:#999999;
+	height:120;
+}
+.testimonialRight {
+	font-family:Verdana, Arial, Helvetica;
+	font-size:10px;
+	color:#666666;
+	line-height:15px;
+}
+.myLicenses_Table {
+	background-image:url(../images/MyLicenses/BgImage.gif);
+	background-repeat:repeat-x;
+	font-family:Verdana, Arial, Helvetica;
+	font-size:11px;
+	color:#333333;
+}
+.myLicenses_Table A {
+	color:#5da015;
+}
+.sideNavPanelHeader
+{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	MARGIN-BOTTOM: 6px; 
+	PADDING-BOTTOM: 4px; 
+	MARGIN-RIGHT: 7px; 
+	BORDER-BOTTOM: #e0e0e0 1px solid; 
+	FONT-FAMILY: Arial Verdama;
+	display: block;
+}
+
+.Ellipses
+{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow:hidden;
+}
+
+a div{cursor:pointer}

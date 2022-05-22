@@ -1,0 +1,100 @@
+/* RadPanelBar Outlook skin */
+
+.RadPanelbar_OutlookOlive
+{
+	background: white;
+	white-space: nowrap;
+	border: solid 1px #608058;
+	border-top: 0px;
+}
+
+.RadPanelbar_OutlookOlive .text
+{
+	padding: 0px 20px; /* vertical - horizontal */
+	font: bold 11px Arial, Verdana, Sans-serif;
+	line-height: 31px;
+}
+
+.RadPanelbar_OutlookOlive .image
+{
+	margin: 4px; /* vertical - horizontal */
+}
+
+
+.RadPanelbar_OutlookOlive .rootGroup .link
+{
+	border-top: solid 1px #608058;
+	background: url('Img/RootItemBkg.gif') repeat-x;
+	color: #10110f;
+}
+
+/* span class="text" */
+.RadPanelbar_OutlookOlive .rootGroup .text
+{
+	font-weight: bold;
+}
+
+.RadPanelbar_OutlookOlive .rootGroup .link:hover
+{
+	background: url('Img/RootItemBkgActive.gif') repeat-x;
+}
+
+
+.RadPanelbar_OutlookOlive .rootGroup .disabled:hover
+{
+	border-top: solid 1px #608058;
+	background: url('Img/RootItemBkg.gif') repeat-x;
+	color: #10110f;
+}
+
+.RadPanelbar_OutlookOlive .group .text
+{
+	background: transparent;
+	font-weight: normal;
+	padding: 0px 20px; /* vertical-horizontal */
+	border: 0px;
+}
+
+.RadPanelbar_OutlookOlive .level2 .text
+{
+	padding-left: 43px;
+	line-height: 23px;
+}
+
+.RadPanelbar_OutlookOlive .rootGroup .selected .text
+{
+	background: url('Img/RootItemBkgActive.gif') repeat-x;
+}
+
+/* child item link */
+.RadPanelbar_OutlookOlive .group .link
+{
+	background: url(Img/itemsBg.gif) repeat-y;
+	border: 0px;
+}
+
+/* child item link:hover */
+.RadPanelbar_OutlookOlive .group .link:hover,
+.RadPanelbar_OutlookOlive .group .selected .text
+{
+	background: url(Img/itemSelected.gif) repeat-y;
+	text-decoration: underline;
+}
+
+.RadPanelbar_OutlookOlive .rootGroup .disabled:hover,
+.RadPanelbar_OutlookOlive .rootGroup .disabled .text
+{
+	background: url('Img/RootItemBkg.gif') repeat-x;
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_OutlookOlive .rootGroup .group .disabled:hover,
+.RadPanelbar_OutlookOlive .rootGroup .group .disabled .text
+{
+	text-decoration: none;
+	background: url(Img/itemsBg.gif) repeat-y;
+	border-top: none;
+	color: #ccc;
+	cursor: default;
+}

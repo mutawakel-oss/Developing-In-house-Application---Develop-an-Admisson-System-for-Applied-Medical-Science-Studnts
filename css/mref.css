@@ -1,0 +1,286 @@
+
+
+span.productTitle {
+	font-size: 80%;
+}
+
+span.topicTitle {
+	font-size: 140%;
+	font-weight: bold;
+	color: #003399;
+}
+
+span#chickenFeet {
+	float: left;
+}
+
+span#languageFilter {
+	float: right;
+}
+
+/* scrolling (content) region style */
+
+div.sectionTitle {
+	display: inline;
+	font-size: 120%;
+	font-weight: bold;
+	color: #003399;
+}
+
+div.sectionContent {
+	margin-top: 0.2em;
+}
+
+span.subsectionTitle {
+	font-weight: bold;
+}
+
+/* authored content (block) */
+
+
+table.authoredTable {
+	width: 95%;
+	margin-bottom: 1em;
+}
+
+table.authoredTable th {
+	border-bottom-color: #C8CDDE;
+	border-bottom-style: solid;
+	border-bottom-width: 1;
+	background: #EFEFF7;
+	padding: 0.2em;
+	text-align: left;
+	color: #000066;
+	font-weight: bold;
+}
+
+table.authoredTable td {
+	border-bottom-style: solid;
+	border-bottom-color: #C8CDDE;
+	border-bottom-width: 1px;
+	background: #F7F7FF;
+	padding: 0.2em;
+	vertical-align: top;	
+}
+
+div.media {
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+
+/* authored content (inline) */
+
+span.keyword {
+	font-weight: bold;
+}
+
+span.code {
+	font-family: "Andale Mono", "Courier New", Courier, monospace; 
+}
+
+/* auto-generated controls */
+
+div.langTabs {
+	width: 95%;
+}
+
+div.langTab {
+	float: left;
+	width: 16%;
+	border-top: 1px solid #C8CDDE;
+	border-left: 1px solid #C8CDDE;
+	border-right: 1px solid #C8CDDE;
+	background: #F7F7FF;
+	padding: 0.2em;
+	text-align: left;
+	color: #000066;
+	font-weight: normal;
+}
+
+div.activeLangTab {
+	float: left;
+	width: 16%;
+	border-top: 1px solid #C8CDDE;
+	border-left: 1px solid #C8CDDE;
+	border-right: 1px solid #C8CDDE;
+	background: #EFEFF7;
+	padding: 0.2em;
+	text-align: left;
+	color: #000066;
+	font-weight: bold;
+}
+
+table.members {
+	width: 95%;
+}
+
+table.members th.iconColumn {
+	width: 60px;
+}
+
+table.members th.nameColumn {
+	width: 33%;
+}
+
+table.members th.descriptionColumn {
+	width: 66%;
+}
+
+table.members th {
+	border-bottom-color: #C8CDDE;
+	border-bottom-style: solid;
+	border-bottom-width: 1;
+	background: #EFEFF7;
+	padding: 0.2em;
+	text-align: left;
+	color: #000066;
+	font-weight: bold;
+}
+
+table.members td {
+	border-bottom-style: solid;
+	border-bottom-color: #C8CDDE;
+	border-bottom-width: 1px;
+	background: #F7F7FF;
+	padding: 0.2em;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+table.exceptions {
+	width: 95%;
+}
+
+
+table.exceptions th.exceptionNameColumn {
+	width: 33%;
+}
+
+table.exceptions th.exceptionConditionColumn {
+	width: 66%;
+}
+
+table.exceptions th {
+	border-bottom-color: #C8CDDE;
+	border-bottom-style: solid;
+	border-bottom-width: 1;
+	background: #EFEFF7;
+	padding: 0.2em;
+	text-align: left;
+	color: #000066;
+	font-weight: bold;
+}
+
+table.exceptions td {
+	border-bottom-style: solid;
+	border-bottom-color: #C8CDDE;
+	border-bottom-width: 1px;
+	background: #F7F7FF;
+	padding: 0.2em;
+	vertical-align: top;
+}
+
+
+span.obsolete {
+	color: red;
+}
+
+span.cs {
+	display: inline;
+}
+
+span.vb {
+	display: none;
+}
+
+span.cpp {
+	display: none;
+}
+/* syntax styling */
+
+div.code span.identifier {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+div.code span.keyword {
+	color: green;
+}
+
+div.code span.parameter {
+	font-style: italic;
+	color: purple;
+}
+
+div.code span.literal {
+	color: purple;
+}
+
+div.code span.comment {
+	color: red;
+}
+
+span.nolink {
+	font-weight: bold;
+}
+
+table.filter {
+	table-layout: fixed;
+}
+
+tr.tabs td.tab {
+	width: 10em;
+	background: #F7F7FF;
+	padding: 0.2em;
+	text-align: left;
+	color: #000066;
+	font-weight: normal;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+tr.tabs td.activeTab {
+	width: 10em;
+	background: #EFEFF7;
+	padding: 0.2em;
+	text-align: left;
+	color: #000066;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+td.line {
+	background: #EFEFF7;
+}
+
+
+/* inheritance hierarchy */
+
+div.inheritance ul {
+	margin-bottom: 1em;
+}
+
+.inheritance ul {
+	display: block;
+	list-style: none none;
+	padding: 0;
+	margin: 0;
+}
+
+.inheritance p {
+	margin: 0;
+	padding: 0;
+	line-height: 175%;
+}
+
+.inheritance li {
+	margin: 0 0 0 10px;
+	padding-left: 23px;
+	background: url(SiteArt/Icons/NotLastChild.gif) no-repeat top left;
+	line-height: 175%;
+}
+
+.inheritance li.last {
+	background: url(SiteArt/Icons/LastChild.gif) no-repeat top left;
+}

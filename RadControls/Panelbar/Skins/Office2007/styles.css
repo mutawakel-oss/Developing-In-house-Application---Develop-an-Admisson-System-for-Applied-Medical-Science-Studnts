@@ -1,0 +1,99 @@
+/* RadPanelBar Office 2007 skin */
+
+.RadPanelbar_Office2007
+{
+	background: white;
+	white-space: nowrap;
+}
+
+.RadPanelbar_Office2007 .rootGroup
+{
+	border: solid 1px #6593cf;
+	border-top: 0px;
+}
+
+.RadPanelbar_Office2007 .text
+{
+	padding: 0px 20px; /* vertical - horizontal */
+	font: bold 11px Arial, Verdana, Sans-serif;
+	line-height: 31px;
+}
+
+.RadPanelbar_Office2007 .image
+{
+	margin: 4px; /* vertical - horizontal */
+}
+
+
+.RadPanelbar_Office2007 .rootGroup .link
+{
+	border-top: solid 1px #6593cf;
+	background: #c0dbff url('Img/RootItemBkg.gif') repeat-x;
+	color: #204d89;
+}
+
+/* span class="text" */
+.RadPanelbar_Office2007 .rootGroup .text
+{
+	font-weight: bold;
+}
+
+
+
+.RadPanelbar_Office2007 .rootGroup .link:hover
+{
+	background: #fee17a url('Img/RootItemBkgActive.gif') repeat-x;
+	color: #003112;
+}
+
+
+.RadPanelbar_Office2007 .rootGroup .disabled:hover
+{
+	background: #7da5e0 url('Img/RootItemBkg.gif') repeat-x;
+	color: #10110f;
+}
+
+.RadPanelbar_Office2007 .group .text
+{
+	background: transparent;
+	font-weight: normal;
+	padding: 0px 20px; /* vertical-horizontal */
+	border: 0px;
+}
+
+.RadPanelbar_Office2007 .rootGroup .selected .text
+{
+	background: #ee9515 url('Img/RootItemBkgActive.gif') repeat-x;
+}
+
+/* child item link */
+.RadPanelbar_Office2007 .group .link
+{
+	background: none;
+	border: 0px;
+}
+
+/* child item link:hover */
+.RadPanelbar_Office2007 .group .link:hover,
+.RadPanelbar_Office2007 .group .selected .text
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.RadPanelbar_Office2007 .rootGroup .disabled:hover,
+.RadPanelbar_Office2007 .rootGroup .disabled .text
+{
+	background: #c0dbff url('Img/RootItemBkg.gif') repeat-x;
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_Office2007 .rootGroup .group .disabled:hover,
+.RadPanelbar_Office2007 .rootGroup .group .disabled .text
+{
+	text-decoration: none;
+	background: none;
+	color: #ccc;
+	cursor: default;
+}

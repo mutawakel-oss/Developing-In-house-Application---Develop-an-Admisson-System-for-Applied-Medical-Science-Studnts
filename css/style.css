@@ -1,0 +1,263 @@
+a:link {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #DA1709;
+}
+
+a:hover {
+	color: #666666; 
+	background-color: #f0f0f0;
+}
+
+a:visited {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: underline;
+}
+
+.boldtext {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+}
+
+.h1 {
+	background-color: #FFFFFF;
+	font-family: Arial;
+	font-size: 13px;
+	font-style: normal;
+	color: #3B6C9D;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	}
+
+.h2 {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	padding-left:10px;
+	font-weight: bold;
+}
+
+.login {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	font-weight: bold;
+	padding-right: 20px;
+}
+
+.generaltext {
+	font-family: Arial;
+	font-size: 12px;
+	color: #333333;
+	padding-left:10px;
+}
+
+ul.circle {
+	list-style-type: circle
+}
+
+.complete {
+	font-family: Arial;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #B7B2B0;
+	padding-left: 10px;
+	font-weight: bold;
+	border: 2px solid #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.correct {
+	font-family: Arial;
+	font-size: 11px;
+	color: #33CC00;
+	background-color: #F6F7F9;
+	padding-left: 10px;
+	font-weight: bold;
+	border: 2px solid #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.incorrect {
+	font-family: Arial;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #DA1709;
+	background-color: #F6F7F9;
+	padding-left: 10px;
+	font-weight: bold;
+	border: 2px solid #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.module {
+	border:1px solid #DADADA;
+	padding:12px;
+	background: #fff url(../images/moduleBg.gif)  repeat-x;
+	font-family: Arial, Verdana;
+	font-size:11px;
+	color:#333333;
+	vertical-align:top;
+	margin-right: 3px;
+}
+.module TD, .module A {
+	font-size:11px;
+	color:#333333;
+}
+.button, button {
+	border:1px solid #D5D5D5;
+	border-bottom: 1px solid #C2C2C2;
+	border-right: 1px solid #C2C2C2;
+	font-family: Verdana, Arial;
+	font-size:10px;
+	font-weight:bold;
+	color:#666666;
+	background-image:url(../images/buttonBg.gif);
+	background-position:top;
+	background-color:white;
+	height:20px;
+	width:80px;
+	vertical-align: middle;
+}
+.textfield {
+	height: 18px;
+	width: 77px;
+	background-image:url(../images/textfield.gif);
+	background-attachment:fixed;
+	padding-left:3px;
+	border:0px;
+	font-size:11px;
+	padding-top:3px;
+	background-repeat:no-repeat;
+	background-color:#E5E5E5;
+	vertical-align: middle;
+}
+
+table.contentTable
+{
+	background: #c3daf9;
+	height:auto;
+	width: 742px;
+}
+.OutlookTable
+{
+	background-color:#c4dafa;
+	margin-top:5px;
+}
+
+
+table.contentTable td.cell
+{
+	border: solid 1px #002d96;
+	vertical-align: top;
+	background: #fff;
+}
+
+/* asp.net calendar */
+td.cell table.aspCalendar
+{
+	background: #fff url('../Img/headerBg.gif') repeat-x;
+	border: 0px !important;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	margin-top: 7px;
+}
+
+.dayHeader
+{
+	border-bottom: solid 1px #aca899;
+}
+.CalendarDay A { BACKGROUND-IMAGE: url(Img/calendarDateBg.gif); WIDTH: 17px; HEIGHT: 14px; TEXT-DECORATION: none; display:block; border:0px;}
+TD.CalendarDay { background-color: transparent !important; }
+TD.CalendarDay A:active {color: #cd6f00 !important; font-weight:bold;}
+/* end asp.net calendar */
+
+div.cellHeader
+{
+	height: 22px;
+	background: #033893 url('../css/Outlook/img/cellHeaderBg.gif') repeat-x;
+	cursor: default;
+}
+
+div.cellHeader div
+{
+	color: #fff;
+	font: bold 16px Arial, Verdana, Sans-serif;
+	padding-top: 4px;
+	margin-left: 2px;
+}
+
+.wrapCell
+{
+	font-size: 1px;
+}
+
+#MessageBody
+{
+	border: solid 1px #000;
+	background: #fff;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	height: 336px;
+	padding: 4px;
+	overflow: auto;
+}
+
+table.messagesGrid
+{
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: #000;
+}
+
+table.messagesGrid td
+{
+	border-bottom: solid 1px #eae9e1;
+}
+
+table.messagesGrid td span
+{
+	color: #808080;
+}
+
+table.messagesGrid a
+{
+	color: #808080;
+}
+
+tr.gridHeader
+{
+	background: #ece9d8;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	padding: 3px 0px;
+}
+
+tr.gridHeader td
+{
+	border-bottom: solid 3px #d2cfbe;
+	border-top: solid 1px #d4d0c8;
+	cursor: default;
+}
+.HelpWindow
+{
+	z-index: 999;
+	position: absolute;
+	top: -999px;
+	left: -999px;
+	display: none;
+	visibility: hidden;
+	
+	width: 300px;
+	height: 250px;
+	
+	background-color: lightyellow;
+	border: dashed 1px black;
+}

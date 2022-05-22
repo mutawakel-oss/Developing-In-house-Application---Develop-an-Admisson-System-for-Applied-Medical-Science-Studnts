@@ -1,0 +1,421 @@
+﻿
+body {
+	margin: 0;
+	padding: 0;
+	font: .7em Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	min-width: 768px;
+}
+
+#header {
+	padding: 10px;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+#main {
+	background-color: white;
+}
+
+#content {
+	background-color: white;
+	margin: 0 2em 0 27em;
+}
+
+.float-left {
+	float: left;
+}
+
+#footer {
+	background-color: white;
+	clear: both;
+	color: #aaa;
+	border-top: solid 1px #555;
+	padding: 5px 0;
+	text-align: center;
+}
+
+#header img {
+	border-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav-bar {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	border-top: solid 1px white;
+	border-bottom: solid 1px white;
+	background-color: #999;
+	color: white;
+}
+
+#nav-bar ul {
+	padding: 5px 0;
+	margin: 0;
+}
+
+#nav-bar li {
+	margin: 0;
+	padding: 0 10px 0 8px;
+	display: inline;
+	list-style-type: none;
+	border-right: solid 1px white;
+}
+
+#nav-bar a {
+	color: white;
+	text-decoration: none;
+}
+
+.sample-lang {
+	display: block;
+	float: right;
+	padding: 4px 0;
+}
+
+.sample-lang-drop-down {
+	font: .8em Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+#breadcrumbs {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	padding: 3px 3px;
+	border-bottom: solid 3px white;
+	background-color: #4c74c2;
+	color: white;
+}
+
+#breadcrumbs ul {
+	padding: 5px;
+	margin: 0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#breadcrumbs li {
+	display: inline;
+	list-style-type: none;
+	color: white;
+}
+
+#breadcrumbs li.first {
+	padding: 0;
+}
+
+#breadcrumbs a {
+	color: white;
+}
+
+div.see-also ul {
+	list-style: none none;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	word-wrap: break-word;
+}
+
+h1 {
+	padding-top: 10px;
+	margin-bottom: 1.2em;
+	font-size: 1.6em;
+}
+
+h2 {
+	margin-top: 2.5em;
+	margin-bottom: 0.6em;
+	font-size: 1.25em;
+}
+
+h3 {
+	margin-top: 1.2em;
+	margin-bottom: 0.3em;
+	font-size: 1.0em;
+}
+
+p {
+	margin: 0 0 1.2em 0;
+	line-height: 140%;
+}
+
+dl {
+	margin: 1.2em 0 0 0;
+	padding: 0;
+}
+
+dt {
+	margin: 0;
+	margin: 0;
+}
+
+.disclaimer {
+	margin-top: 3em;
+	color: red;
+}
+
+.nolink {
+	font-weight: bold;
+}
+
+a {
+	color: #36c;
+}
+
+a:hover {
+	color: #1d489e;
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	margin: 0 0 1.2em 0;
+}
+
+#content img {
+	margin-right: -1000px;
+}
+
+ul {
+	list-style: url(SiteArt/bullet.gif) outside;
+}
+
+table {
+	margin: 1.2em 0 0 0;
+	border: solid 1px #dadada;
+	width: 95%;
+}
+
+th, td {
+	border: solid 1px #dadada;
+	padding: 3px;
+	vertical-align: top;
+}
+
+th {
+	padding: 0.3em 0.1em;
+	background-color: #eee;
+	text-align: left;
+}
+
+th p {
+	margin: 0;
+}
+
+td p {
+	margin: 0.3em 0 0.3em 0;
+}
+
+div.procedure {
+	border: solid 1px #dadada;
+	margin-bottom: 1.2em;
+}
+
+.procedure h3 {
+	margin: 0;
+	padding: 5px;
+	background-color: #eee;
+	border-bottom: solid 1px #dadada
+}
+
+.procedure ol {
+	margin: 0.6em;
+}
+
+ol {
+	margin: 0;
+	padding-left: 3em;
+}
+
+ol li {
+	list-style-position: outside;
+}
+
+.code pre {
+	overflow: auto;
+	font: 100% 'Courier New', Monospace;
+	color: #693;
+	border: solid 1px #dadada;
+	background-color: #f0f0f0;
+	padding: 5px;
+	width: 95%;
+}
+
+span.ui {
+	font: 100% 'Courier New', Monospace;
+	color: #693;
+}
+
+span.keyword {
+	font: bold 100% 'Courier New', Monospace;
+	color: #693;
+}
+
+span.input {
+	font: 100% 'Courier New', Monospace;
+}
+
+span.code {
+	font: 100% 'Courier New', Monospace;
+	color: #693;
+}
+
+.live-code {
+	margin: 10px;
+	padding: 5px 5px 5px 10px;
+	border-left: solid 3px #bbb;
+}
+
+.error-message {
+	color: #f11;
+	font-size: 120%;
+	font-weight: bold;
+	padding: 30px 0 100px;
+}
+
+.live-code a {
+	text-decoration: none;
+}
+
+.live-code a span {
+	visibility: hidden;
+}
+
+.run-button {
+	display: table-cell;
+	display: inline-block;
+	background: url(SiteArt/button_run.gif) no-repeat;
+	width: 52px;
+	height: 47px;
+}
+
+.run-button:hover {
+	background-image: url(SiteArt/button_run-over.gif);
+}
+
+.run-button:active {
+	background-image: url(SiteArt/button_run-down.gif);
+}
+
+.view-button {
+	display: table-cell;
+	display: inline-block;
+	background: url(SiteArt/button_view.gif) no-repeat;
+	width: 92px;
+	height: 47px;
+}
+
+.view-button:hover {
+	background-image: url(SiteArt/button_view-over.gif);
+}
+
+.view-button:active {
+	background-image: url(SiteArt/button_view-down.gif);
+}
+
+.clear {
+	clear: both;
+	font-size: 1px;
+}
+
+.keyword {
+	font: 100% 'Courier New', Monospace;
+	color: #693;
+}
+
+div.alert {
+	margin: 1.2em 0;
+	padding: 5px;
+	background-color: #ffd;
+	border: solid 1px #ea7;
+}
+
+.alert {
+	color: #633;
+}
+
+/* Regular TOC */
+
+#toc {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f0f0f0;
+	float: left;
+	width: 24.5em;
+	overflow: hidden;
+	padding-right: 0.5em;
+	padding-bottom: 1200px;
+	border-right: solid 1px #d7d7d7;
+	color: #36c;
+}
+
+#toc ul {
+	display: block;
+	list-style: none none;
+	margin: 0;
+	padding: 0;
+}
+
+#toc li {
+	font-size: 1.2em;
+	margin: 0.5em 0 0.5em 0.5em;
+	font-weight: bold;
+}
+
+#toc li li {
+	font-size: .833em;
+	margin: 0.5em 0 0 1em;
+	padding-left: 11px;
+	background: url(SiteArt/bullet_nav_big.gif) no-repeat left 0.2em;
+}
+
+#toc li li li {
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0.1em 0 0 1em;
+	background: url(SiteArt/bullet_nav_small.gif) no-repeat left 0.2em;
+}
+
+#toc a {
+	text-decoration: none;
+}
+
+/* Tree of files and folders in sample pop-up viewer. */
+
+
+#source-tree {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background-color: #f0f0f0;
+	float: left;
+	width: 24.5em;
+	overflow: hidden;
+	padding-right: 0.5em;
+	padding-bottom: 1200px;
+	border-right: solid 1px #d7d7d7;
+	color: #36c;
+}
+
+#source-tree ul {
+	display: block;
+	list-style: none none;
+	margin: 0;
+	padding: 0 0 0 0.5em;
+}
+
+#source-tree li.AspNet-TreeView-Parent, #source-tree li.AspNet-TreeView-Root {
+	margin: 0.5em 0 0.5em 0;
+	padding-left: 22px;
+	background: url(SiteArt/folder2.gif) no-repeat;
+	font-weight: bold;
+}
+
+#source-tree li.AspNet-TreeView-Leaf {
+	margin: 0.5em 0 0.5em 0;
+	padding-left: 22px;
+	background: url(SiteArt/txt.gif) no-repeat;
+	font-weight: normal;
+}
+
+#source-tree a {
+	text-decoration: none;
+}

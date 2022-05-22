@@ -1,0 +1,107 @@
+/* RadPanelBar WebBlue skin */
+
+.RadPanelbar_WebBlue
+{
+	background: white;
+	white-space: nowrap;
+	line-height: 21px;
+	
+}
+.RadPanelbar_WebBlue .rootGroup
+{
+	border: solid 1px #69798c;
+}
+/* global text properties */
+.RadPanelbar_WebBlue .text
+{
+	padding: 0px 20px;
+	font: menu;
+}
+
+/* global link styles */
+.RadPanelbar_WebBlue .link
+{
+	color: White;
+}
+
+/* panelbar item icon [if any] */
+.RadPanelbar_WebBlue .image
+{
+	margin:4px 0px;
+}
+
+/* panelbar root items style */
+.RadPanelbar_WebBlue .rootGroup .text
+{
+	background: url('Img/MainItemNormal.gif') repeat-x;
+	font-weight: bold;
+}
+
+/* root items <li> style */
+.RadPanelbar_WebBlue .rootGroup .item
+{
+	border-top: solid 1px #869bb3;
+}
+
+/* li.first style */
+.RadPanelbar_WebBlue .rootGroup .first
+{
+	border-top: 0px;
+}
+
+/* child items global style */
+.RadPanelbar_WebBlue .group .text
+{
+	border: 0;
+	background: transparent;
+	font-weight:normal;
+	padding: 0px 20px;
+}
+
+/* child items <li> style */
+.RadPanelbar_WebBlue .group .item
+{
+	border-bottom: solid 1px #dde1e4;
+	border-top: 0px;
+}
+
+/* child items li.last */
+.RadPanelbar_WebBlue .group .last
+{
+	border-bottom: 0px;
+}
+
+/* selected child item */
+.RadPanelbar_WebBlue .group .selected .text
+{
+	background: #f0f2f4;
+}
+
+/* child items link style */
+.RadPanelbar_WebBlue .group .link
+{
+	color: #333;
+}
+
+/* child items link:hover style */
+.RadPanelbar_WebBlue .group .link:hover
+{
+	background: #f0f2f4;
+}
+
+.RadPanelbar_WebBlue .rootGroup .disabled:hover,
+.RadPanelbar_WebBlue .rootGroup .disabled .text
+{
+	background: url('Img/MainItemNormal.gif') repeat-x;
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_WebBlue .rootGroup .group .disabled:hover,
+.RadPanelbar_WebBlue .rootGroup .group .disabled .text
+{
+	text-decoration: none;
+	background: none;
+	color: #ccc;
+	cursor: default;
+}

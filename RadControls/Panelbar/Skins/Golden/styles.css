@@ -1,0 +1,131 @@
+/* telerik RadPanelBar 4 Golden skin */
+
+/* panelbar wrapper */
+.RadPanelbar_Golden
+{
+	background-color: white;
+	white-space: nowrap;
+	width: 199px !important; /* this skin requires fixed width */
+}
+
+.RadPanelbar_Golden .rootGroup
+{
+	border: solid 1px #ab5713;
+	border-left: 0px;
+}
+
+/* global text class declaration */
+.RadPanelbar_Golden .text
+{
+	padding: 0px 20px; /* vertical - horizontal */
+	font: bold 11px Arial, Verdana, Sans-serif;
+	line-height: 34px;
+}
+
+/* panelbar icon [if any] */
+.RadPanelbar_Golden .image
+{
+	margin:4px 0px;
+}
+
+/* main item link */
+.RadPanelbar_Golden .rootGroup a.link
+{
+	background: url('Img/MainItemNormal.gif') no-repeat;
+	color: #666;
+}
+
+/* main item link:hover */
+.RadPanelbar_Golden .rootGroup a.link:hover
+{
+	background: url('Img/MainItemSelected.gif') no-repeat;
+}
+/* child items enclosing parent element */
+.RadPanelbar_Golden .group
+{
+	background: url('Img/ChildItemNormal.gif') repeat-y;
+}
+/* child item link */
+.RadPanelbar_Golden .group a.link
+{
+	background: url('Img/ChildItemSeparator.gif') no-repeat left bottom;
+	color: black;
+}
+
+/* child item link:hover */
+.RadPanelbar_Golden .group a.link:hover
+{
+	background: url('Img/ChildItemSeparator.gif') no-repeat left bottom;
+	color: white;
+}
+
+/* child item .text declaration */
+.RadPanelbar_Golden .group .text
+{
+	padding: 0px 20px;
+	line-height: 26px;
+	font-weight: normal;
+}
+
+
+.RadPanelbar_Golden .group .level2 a.link,
+.RadPanelbar_Golden .group .level2 a.link:hover
+{
+	background: #f6d101 url('Img/Level2Bg.gif') repeat-y;
+}
+
+.RadPanelbar_Golden .group .level2 .last a.link,
+.RadPanelbar_Golden .group .level2 .last a.link:hover
+{
+	background: url('Img/ChildItemNormal.gif') repeat-y;
+}
+
+.RadPanelbar_Golden .level2 .text
+{
+	padding-left: 45px;
+	line-height: 26px;
+	background: url('Img/Bullet.gif') no-repeat 36px center;
+}
+
+/* selected main panelbar item */
+.RadPanelbar_Golden .rootGroup .selected .text
+{
+	background: url('Img/MainItemSelected.gif') no-repeat;
+}
+
+/* selected child panelbar item */
+.RadPanelbar_Golden .group .selected .text
+{
+	background: transparent;
+	color: white;
+	text-decoration: underline;
+}
+
+.RadPanelbar_Golden .rootGroup .disabled:hover,
+.RadPanelbar_Golden .disabled .text
+{
+	background: url('Img/MainItemNormal.gif') no-repeat;
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_Golden .rootGroup .group .disabled:hover,
+.RadPanelbar_Golden .rootGroup .group .disabled .text
+{
+	text-decoration: none;
+	background: #f6d101 url('Img/Level2Bg.gif') repeat-y;
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_Golden .group .level2 .disabled,
+.RadPanelbar_Golden .group .level2 .disabled:hover
+{
+	background: #f6d101 url('Img/Level2Bg.gif') repeat-y;
+}
+
+.RadPanelbar_Golden .group .level2 .disabled .text,
+.RadPanelbar_Golden .group .level2 .disabled:hover .text
+{
+	background: url('Img/Bullet.gif') no-repeat 36px center;
+}

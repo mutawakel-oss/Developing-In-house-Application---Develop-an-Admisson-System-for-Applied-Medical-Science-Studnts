@@ -1,0 +1,85 @@
+/* Default RadPanelBar DNN skin */
+
+/* panelbar wrapper */
+.RadPanelbar_Dnn
+{
+	background: white;
+	white-space: nowrap;
+	width: 163px !important;
+}
+
+.RadPanelbar_Dnn .text
+{
+	padding: 0px 12px;
+	font: normal 11px Arial, Verdana, Sans-serif;
+}
+
+.RadPanelbar_Dnn .image
+{
+	margin: 4px 0px;
+}
+
+.RadPanelbar_Dnn .rootGroup .text, .RadPanelbar_Dnn .rootGroup .selected .text
+{
+	line-height: 23px;
+}
+
+.RadPanelbar_Dnn .rootGroup .link
+{
+	background: white url('Img/HeaderBg.gif') no-repeat;
+	color: #877560;
+}
+
+.RadPanelbar_Dnn .rootGroup .link:hover
+{
+	background: white url('Img/SelectBg.gif') no-repeat;
+	color: #877560;
+}
+
+.RadPanelbar_Dnn .group .text
+{
+	padding-left: 20px;
+	background: url('Img/ListItem.gif') no-repeat 10px center;
+}
+
+.RadPanelbar_Dnn .group .link
+{
+	color: #736704;
+	background: url('Img/GroupBg.gif') repeat-y;
+}
+
+.RadPanelbar_Dnn .group .link:hover
+{
+	color: #492b09;
+	background: url('Img/GroupBg.gif') repeat-y;
+}
+
+.RadPanelbar_Dnn .rootGroup .selected
+{
+	background: white url('Img/SelectBg.gif') repeat-x;
+}
+
+.RadPanelbar_Dnn .group .selected
+{
+	text-decoration: underline;
+	font-weight: normal;
+	background: url('Img/GroupBg.gif') repeat-y;
+	color: black;
+}
+
+.RadPanelbar_Dnn .rootGroup .disabled:hover,
+.RadPanelbar_Dnn .disabled .text
+{
+	background: white url('Img/HeaderBg.gif') no-repeat;
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_Dnn .rootGroup .group .disabled:hover,
+.RadPanelbar_Dnn .rootGroup .group .disabled .text
+{
+	text-decoration: none;
+	background: url('Img/GroupBg.gif') repeat-y;
+	color: #ccc;
+	cursor: default;
+}

@@ -1,0 +1,106 @@
+/* RadPanelBar Outlook skin */
+
+.RadPanelbar_Outlook
+{
+	background: white;
+	white-space: nowrap;
+}
+
+.RadPanelbar_Outlook .rootGroup
+{
+	border: solid 1px #002d96;
+	border-top: 0px;
+}
+
+.RadPanelbar_Outlook .text
+{
+	padding: 0px 20px; /* vertical - horizontal */
+	font: bold 11px Arial, Verdana, Sans-serif;
+	line-height: 31px;
+}
+
+.RadPanelbar_Outlook .image
+{
+	margin: 4px; /* vertical - horizontal */
+}
+
+
+.RadPanelbar_Outlook .rootGroup .link
+{
+	border-top: solid 1px #002d96;
+	background: #7da5e0 url('Img/RootItemBkg.gif') repeat-x;
+	color: #10110f;
+}
+
+/* span class="text" */
+.RadPanelbar_Outlook .rootGroup .text
+{
+	font-weight: bold;
+}
+
+
+
+.RadPanelbar_Outlook .rootGroup .link:hover
+{
+	background: #ee9515 url('Img/RootItemBkgActive.gif') repeat-x;
+}
+
+
+.RadPanelbar_Outlook .rootGroup .disabled:hover
+{
+	border-top: solid 1px #002d96;
+	background: #7da5e0 url('Img/RootItemBkg.gif') repeat-x;
+	color: #10110f;
+}
+
+.RadPanelbar_Outlook .group .text
+{
+	background-color: transparent;
+	font-weight: normal;
+	padding: 0px 20px; /* vertical-horizontal */
+	border: 0px;
+}
+
+.RadPanelbar_Outlook .level2 .text
+{
+	padding-left: 43px;
+	line-height: 23px;
+}
+
+.RadPanelbar_Outlook .rootGroup .selected .text
+{
+	background: #ee9515 url('Img/RootItemBkgActive.gif') repeat-x;
+}
+
+/* child item link */
+.RadPanelbar_Outlook .group .link
+{
+	background: none;
+	border: 0px;
+}
+
+/* child item link:hover */
+.RadPanelbar_Outlook .group .link:hover,
+.RadPanelbar_Outlook .group .selected .text
+{
+	background: none;
+	text-decoration: underline;
+}
+
+.RadPanelbar_Outlook .rootGroup .disabled:hover,
+.RadPanelbar_Outlook .rootGroup .disabled .text
+{
+	background: #7da5e0 url('Img/RootItemBkg.gif') repeat-x;
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_Outlook .rootGroup .group .disabled:hover,
+.RadPanelbar_Outlook .rootGroup .group .disabled .text
+{
+	border:none;
+	text-decoration:none;
+	background:none;
+	color: #ccc;
+	cursor: default;
+}

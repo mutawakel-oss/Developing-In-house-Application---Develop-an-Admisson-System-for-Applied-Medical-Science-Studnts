@@ -1,0 +1,148 @@
+/* Default RadPanelBar BlueMelt skin */
+
+.RadPanelbar_BlueMelt
+{
+	background: white;
+	white-space: nowrap;
+	width: 223px !important;
+	font: normal 11px Arial, Verdana, Sans-serif;
+}
+
+.RadPanelbar_BlueMelt .text
+{
+	padding-left: 23px;
+}
+
+.RadPanelbar_BlueMelt .image
+{
+	margin: 4px 0px;
+}
+
+.RadPanelbar_BlueMelt .rootGroup .link
+{
+	background: white url('Img/HeaderBg.gif') no-repeat;
+	line-height: 36px;
+	color: white;
+	font-weight: bold;
+}
+
+.RadPanelbar_BlueMelt .rootGroup .link:hover
+{
+	background: red;
+}
+
+.RadPanelbar_BlueMelt .rootGroup .link:hover
+{
+	background: white url('Img/HeaderBgHover.gif') no-repeat left 1px;
+}
+
+.RadPanelbar_BlueMelt .rootGroup .expanded,
+.RadPanelbar_BlueMelt .rootGroup .link:hover .expanded
+{
+	background: white url('Img/HeaderExpandedBg.gif') no-repeat !important;
+}
+
+.RadPanelbar_BlueMelt .group .link
+{
+	background: white url('Img/GroupBg.gif') no-repeat;
+	line-height: 24px;
+	font-weight: normal;
+}
+
+.RadPanelbar_BlueMelt .group .expanded,
+.RadPanelbar_BlueMelt .group .link:hover .expanded
+{
+	background: white url('Img/GroupBg.gif') no-repeat !important;
+	height: 24px !important;
+	line-height: 27px !important;
+	overflow: hidden !important;
+	color: white !important;
+}
+
+.RadPanelbar_BlueMelt .group .last .link,
+.RadPanelbar_BlueMelt .group .last .link:hover
+{
+	background: white url('Img/ItemLastBg.gif') no-repeat;
+	line-height: 30px;
+}
+
+.RadPanelbar_BlueMelt .group .link
+{
+	color: white;
+}
+
+.RadPanelbar_BlueMelt .group .link:hover
+{
+	color: black;
+	background: white url('Img/GroupBg.gif') no-repeat;
+}
+
+.RadPanelbar_BlueMelt .group .selected
+{
+	text-decoration: underline;
+	color: white;
+}
+
+.RadPanelbar_BlueMelt .rootGroup .expanded .text
+{
+	line-height: 25px;
+	color: white;
+	font-weight: bold;
+}
+
+.RadPanelbar_BlueMelt .group .selected .text
+{
+	font-weight: normal;
+}
+
+.RadPanelbar_BlueMelt .group .expanded .text
+{
+	color: white;
+	font-weight: normal;
+}
+
+.RadPanelbar_BlueMelt .level2 .text
+{
+	background: url('Img/Level2Normal.gif') no-repeat left center;
+	margin-left: 20px;
+	padding-left: 24px;
+	line-height: 24px;
+}
+
+.RadPanelbar_BlueMelt .level2 .selected .text
+{
+	background: url('Img/Level2Selected.gif') no-repeat left center;
+	margin-left: 20px;
+	padding-left: 24px;
+}
+
+.RadPanelbar_BlueMelt .disabled .text
+{
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_BlueMelt .rootGroup .disabled:hover,
+.RadPanelbar_BlueMelt .rootGroup .disabled .text
+{
+	background: white url('Img/HeaderBg.gif') no-repeat;
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_BlueMelt .rootGroup .group .disabled:hover,
+.RadPanelbar_BlueMelt .rootGroup .group .disabled .text
+{
+	text-decoration: none;
+	background: white url('Img/GroupBg.gif') no-repeat;
+	color: #ccc;
+	cursor: default;
+}
+
+.RadPanelbar_BlueMelt .rootGroup .group .level2 .disabled .text
+{
+	background: url('Img/Level2Normal.gif') no-repeat left center;
+	margin-left: 20px;
+	padding-left: 24px;
+	line-height: 24px;
+}
