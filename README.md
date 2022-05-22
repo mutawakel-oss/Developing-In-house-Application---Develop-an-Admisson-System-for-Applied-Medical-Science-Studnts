@@ -9,3 +9,9 @@ Develop an electronic registration system for the admission process of college A
 •	To provide a utility for admission department to get the records of registered students and apply the selection criteria.
 
 # System Screenshots
+
+![Sample Graph](https://github.com/mutawakel-oss/Developing-In-house-Application---Develop-an-Admisson-System-for-Applied-Medical-Science-Studnts/blob/main/Screenshots/1.jpg)
+
+![Sample Graph](https://github.com/mutawakel-oss/Developing-In-house-Application---Develop-an-Admisson-System-for-Applied-Medical-Science-Studnts/blob/main/Screenshots/2.jpg)
+
+![Sample Graph](https://github.com/mutawakel-oss/Developing-In-house-Application---Develop-an-Admisson-System-for-Applied-Medical-Science-Studnts/blob/main/Screenshots/3.jpg)
